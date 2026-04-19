@@ -1,6 +1,11 @@
+import FeaturesSection from "./sections/FeaturesSection";
+import HeroSection from "./sections/HeroSection";
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
-export default App
+	return (
+		<>
+			<HeroSection />
+			<FeaturesSection />
+		</>
+	);
+};
+export default App;
